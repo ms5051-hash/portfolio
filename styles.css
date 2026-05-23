@@ -1,0 +1,53 @@
+body {
+    font-family: 'DM sans', sans-serif;
+    background-color: #f8f5f0;
+    color: #2d2d2d;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+nav {
+    background: #1a1f36;
+    padding: 16px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    top: 0;
+    position: sticky;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+
+}
+
+section {
+    padding: 72px 48px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-label {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #c9a96e;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 1.85;
+    max-width: 640px;
+}
